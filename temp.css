@@ -1,0 +1,49 @@
+/*  Fonts     */
+@import url('https://fonts.googleapis.com/css?family=Asap:400,500,700');
+
+/*  Stylesheet Overide     */
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: #000
+}
+
+div {
+	height: 33.33vh;
+}
+
+#fahrenheit {
+	border-top: 4px solid #fff;
+	border-bottom: 4px solid #fff;
+}
+
+input[type=number] {
+	width: 100%;
+	height: 100%;
+	background: #000;
+	color:#fff;
+	font-size: 10em;
+	text-align: center;
+	border: 0;
+	font-family: 'Asap', sans-serif;
+	outline: none; /*  get rid of blue lines on side    */
+}
+
+/*  backwards compatibility for:
+ chrome/firefox and edge    */
+
+::-webkit-input-placeholder {
+	color: #333333;
+}
+
+::-moz-placeholder {
+	color: #333333;
+}
+
+::-ms-input-placeholder {
+	color: #333333;
+}
